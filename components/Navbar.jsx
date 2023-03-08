@@ -82,7 +82,7 @@ const Navbar = () => {
               <Link href="/#projects">Projects</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="https://drive.google.com/file/d/1RFdHTyWsw2gVep5G1iVSeB4ngBwmCibB/view?usp=sharing">
+              <Link href="https://drive.google.com/file/d/1zzNw4t6iF4qE9o0fNhx5HOspbqOoOKKp/view?usp=sharing">
                 Resume
               </Link>
             </li>
