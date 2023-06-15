@@ -37,7 +37,7 @@ const Projects = () => {
             backgroundImg={infintyScroll}
             projectUrl="/infinityScroll"
             tech="HTML, CSS, JS, React JS, API, and many more."
-            liveUrl="https://rick-and-morty-infity-scrolling.netlify.app/"
+            liveUrl="https://infinityscrollapp.netlify.app/"
           />
           <ProjectItem
             title="Split Screen UI"
