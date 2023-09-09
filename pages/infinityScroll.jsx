@@ -24,9 +24,10 @@ const infinityScroll = () => {
 
       <div className="max-w-[1240px] mx-auto p-1 grid md:grid-cols-5 gap-8 py-8">
         <div className="col-span-4">
-          <p>Project</p>
-          <h2>Overview</h2>
-          <ol>
+          <h2>Project Overview</h2>
+        </div>
+        <div className="col-span-4 ">
+          <ol style={{ fontSize: "17px" }}>
             <li>
               Designed a high-performance infinite scrolling page with a
               lightweight framework which Improved website performance by 30%.{" "}
@@ -49,6 +50,7 @@ const infinityScroll = () => {
               Query, CSS Vanilla, HTML, Rick and Morty API&#39;s.
             </li>
           </ol>
+
           <a
             href="https://github.com/siddhartharya0809/React-Infinity-Scroll"
             target="_blank"
@@ -65,9 +67,9 @@ const infinityScroll = () => {
           </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
-          <div className="p-2">
+          <div className="pl-2">
             <p className="text-center font-bold pb-2">Technologies</p>
-            <div className="grid grid-cols-3 md:grid-cols-1">
+            <div className="grid grid-cols-3 md:grid-cols-1 pl-5">
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> ReactJS (React Query)
               </p>

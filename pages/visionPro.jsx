@@ -1,12 +1,10 @@
 import Image from "next/image";
 import React from "react";
-
-import ebuyImg from "../public/assets/projects/ebuy.png";
-
+import visionPro from "../public/assets/projects/apple-vision-pro.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const crypto = () => {
+const property = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -15,85 +13,82 @@ const crypto = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={ebuyImg}
+          src={visionPro}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Ebuy - Ecommerce App</h2>
-          <h3>React JS / Material UI / Netlify</h3>
+          <h2 className="py-2">Apple Vision Pro - Clone</h2>
+          <h3>HTML | CSS | JavaScript | GSAP</h3>
         </div>
       </div>
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
         <div className="col-span-4">
-          <h2>Project Overview</h2>
+          <p></p>
+          <h2>Project Overview: </h2>
         </div>
+
         <div className="col-span-4">
           <ol style={{ fontSize: "17px" }}>
             <li>
-              Developed user-friendly e-commerce website using ReactJS and
-              Styled Components.
+              Created a detailed clone of Apple Vision Pro showcasing
+              proficiency in frontend web development.
             </li>
             <li>
-              Implemented multi-page functionality and routing, resulting in a
-              dynamic and seamless user experience.
+              Utilized GSAP animations, ScrollTrigger, and Locomotive Scroll to
+              craft engaging and interactive user experiences, highlighting
+              expertise in modern web technologies.
             </li>
             <li>
-              Achieved a 90% mobile responsiveness score on Google&#39;s
-              Mobile-Friendly Test by optimizing the website&#39;s design for
-              mobile devices.
+              Seamlessly integrated videos and images to replicate product
+              features, demonstrating meticulous attention to design accuracy.
             </li>
             <li>
-              Delivered a website with a fast load time and an emphasis on user
-              experience (UI/UX), resulting in an overall satisfaction rate of
-              95% from users.
-            </li>
-            <li>
-              Features: Responsive, Fast(went from 20% to 87%), User friendly
-              (UI/UX).
-            </li>
-            <li>
-              Tech: HTML CSS, ReactJS, JavaScript, Material-UI, Styled
-              Components.
+              Published the project online
+              (https://siddhartharya0809.github.io/apple-vision-pro/), allowing
+              public access to showcase frontend development skills and UI
+              design expertise.
             </li>
           </ol>
           <a
-            href="https://github.com/siddhartharya0809/ebuy"
+            href="https://github.com/siddhartharya0809/apple-vision-pro"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://ebuy-v3.netlify.app/"
+            href="https://siddhartharya0809.github.io/apple-vision-pro/"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4">Demo</button>
           </a>
         </div>
+
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
           <div className="pl-2">
             <p className="text-center font-bold pb-2">Technologies</p>
-            <div className="grid grid-cols-3 md:grid-cols-1 pl-5 ">
+            <div className="grid grid-cols-3 md:grid-cols-1 pl-5">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> React
+                <RiRadioButtonFill className="pr-1" /> HTML
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Material UI
+                <RiRadioButtonFill className="pr-1" /> CSS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Javascript
+                <RiRadioButtonFill className="pr-1" /> JavaScript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Netlify
+                <RiRadioButtonFill className="pr-1" /> GSAP
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> React Router
+                <RiRadioButtonFill className="pr-1" /> GitHub Pages
               </p>
             </div>
           </div>
         </div>
+
         <Link href="/#projects">
           <p className="underline cursor-pointer">Back</p>
         </Link>
@@ -102,4 +97,4 @@ const crypto = () => {
   );
 };
 
-export default crypto;
+export default property;
