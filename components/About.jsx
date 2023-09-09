@@ -6,29 +6,29 @@ import AboutImg from "../public/assets/about.jpg";
 const About = () => {
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
-      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 px-6">
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">
             About
           </p>
-          <h2 className="py-4">Who I Am</h2>
+          <h2 className="py-4">Myself</h2>
           <p className="py-2 text-gray-600 font-medium">
-            I&#39;m a code-slinging web developer who loves to mix things up
-            both on and off the screen. I&#39;m always experimenting with the
-            latest tech and sharpening my skills. But when I&#39;m not coding,
-            I&#39;m whipping up a culinary masterpiece or cheering on my
-            favorite cricket and basketball teams.
+            Namaste I&#39;m a web developer with a zest for innovation and a
+            taste for life. I&#39;m always experimenting with the latest tech
+            and sharpening my skills. When I&#39;m not lost in lines of code,
+            you can find me cooking delicious meals or passionately cheering for
+            my favorite cricket and basketball teams.
           </p>
           <p className="py-2 text-gray-600 font-medium">
-            I have a curious mind and a passion for learning, and I strive to
-            create websites that are both fun and functional. So, whether
-            I&#39;m coding like a pro or cooking like a chef, I&#39;m always
-            ready for a good challenge.
+            I have a curious mind that&#39;s why I&#39;m all about learning and
+            having a great time, even if I occasionally turn things into a
+            delightful mess. Whether it&#39;s coding wizardry or cooking
+            escapades, I&#39;m always up for an exciting challenge!
           </p>
 
           <Link href="/#projects">
-            <p className="py-2 text-gray-600 underline cursor-pointer">
-              Check out some of my latest projects.
+            <p className="py-2 uppercase text-gray-600 font-semibold underline cursor-pointer">
+              Wanna see my work 👇
             </p>
           </Link>
         </div>
