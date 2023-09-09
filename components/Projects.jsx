@@ -20,14 +20,14 @@ const Projects = () => {
         <h2 className="py-4">Which I made</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="A MultiFunction ToDo App"
+            title="TODO App"
             backgroundImg={todo}
             projectUrl="/todoApp"
             tech="HTML, CSS, JS"
             liveUrl="https://siddhartharya0809.github.io/TodoApp/"
           />
           <ProjectItem
-            title="Ebuy Ecommerce App"
+            title="Ebuy Ecom App"
             backgroundImg={ebuy}
             projectUrl="/ebuy"
             tech="HTML, CSS, JS, React JS,and many more."
@@ -37,7 +37,7 @@ const Projects = () => {
             title="React Infinity Scroll"
             backgroundImg={infintyScroll}
             projectUrl="/infinityScroll"
-            tech="HTML, CSS, JS, React JS, API, and many more."
+            tech="HTML, CSS, JS, React JS."
             liveUrl="https://infinityscrollapp.netlify.app/"
           />
           <ProjectItem
