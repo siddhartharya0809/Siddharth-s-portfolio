@@ -6,6 +6,7 @@ import ebuy from "../public/assets/projects/ebuy.png";
 import infintyScroll from "../public/assets/projects/infinty_scroll.png";
 import splitScreen from "../public/assets/projects/split_screen.png";
 import todo from "../public/assets/projects/todo.png";
+import visionPro from "../public/assets/projects/apple-vision-pro.png";
 
 import ProjectItem from "./ProjectItem";
 
@@ -45,6 +46,13 @@ const Projects = () => {
             projectUrl="/splitScreen"
             tech="HTML, CSS, JS"
             liveUrl="https://siddhartharya0809.github.io/Split-Screen-UI/"
+          />
+          <ProjectItem
+            title="Apple Vision Pro - Clone"
+            backgroundImg={visionPro}
+            projectUrl="/visionPro"
+            tech="HTML, CSS, JS, GSAP"
+            liveUrl={"https://siddhartharya0809.github.io/apple-vision-pro/"}
           />
         </div>
       </div>
