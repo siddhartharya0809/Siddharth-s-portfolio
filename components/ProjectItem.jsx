@@ -16,14 +16,16 @@ const ProjectItem = ({ title, backgroundImg, tech, projectUrl, liveUrl }) => {
         </h3>
         <p className="pb-4 pt-2 text-white text-center">{tech}</p>
 
-        <Link href={projectUrl}>
-          <p className="text-center py-3 my-2 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
-            More Info
+        <div className="flex space-x-4 justify-center ">
+          <Link href={projectUrl}>
+            <p className="text-center p-3 m-2 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
+              More Info
+            </p>
+          </Link>
+          <p className="text-center p-3 m-2 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
+            <a href={liveUrl}>Live Link</a>
           </p>
-        </Link>
-        <p className="text-center py-3 my-2 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
-          <a href={liveUrl}>live</a>
-        </p>
+        </div>
       </div>
     </div>
   );

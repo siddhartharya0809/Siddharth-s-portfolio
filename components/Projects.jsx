@@ -30,7 +30,7 @@ const Projects = () => {
             title="Ebuy Ecom App"
             backgroundImg={ebuy}
             projectUrl="/ebuy"
-            tech="HTML, CSS, JS, React JS,and many more."
+            tech="HTML, CSS, JS, React JS."
             liveUrl="https://ebuy-v3.netlify.app/"
           />
           <ProjectItem
