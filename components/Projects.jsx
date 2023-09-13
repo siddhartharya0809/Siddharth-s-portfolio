@@ -20,12 +20,13 @@ const Projects = () => {
         <h2 className="py-4">Which I made</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="TODO App"
-            backgroundImg={todo}
-            projectUrl="/todoApp"
-            tech="HTML, CSS, JS"
-            liveUrl="https://siddhartharya0809.github.io/TodoApp/"
+            title="Apple Vision Pro - Clone"
+            backgroundImg={visionPro}
+            projectUrl="/visionPro"
+            tech="HTML, CSS, JS, GSAP"
+            liveUrl={"https://siddhartharya0809.github.io/apple-vision-pro/"}
           />
+
           <ProjectItem
             title="Ebuy Ecom App"
             backgroundImg={ebuy}
@@ -48,11 +49,11 @@ const Projects = () => {
             liveUrl="https://siddhartharya0809.github.io/Split-Screen-UI/"
           />
           <ProjectItem
-            title="Apple Vision Pro - Clone"
-            backgroundImg={visionPro}
-            projectUrl="/visionPro"
-            tech="HTML, CSS, JS, GSAP"
-            liveUrl={"https://siddhartharya0809.github.io/apple-vision-pro/"}
+            title="TODO App"
+            backgroundImg={todo}
+            projectUrl="/todoApp"
+            tech="HTML, CSS, JS"
+            liveUrl="https://siddhartharya0809.github.io/TodoApp/"
           />
         </div>
       </div>
