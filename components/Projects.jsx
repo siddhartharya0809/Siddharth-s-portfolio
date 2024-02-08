@@ -7,6 +7,7 @@ import infintyScroll from "../public/assets/projects/infinty_scroll.png";
 import splitScreen from "../public/assets/projects/split_screen.png";
 import todo from "../public/assets/projects/todo.png";
 import visionPro from "../public/assets/projects/apple-vision-pro.png";
+import cyberfiction from "../public/assets/projects/cybefiction.png";
 
 import ProjectItem from "./ProjectItem";
 
@@ -19,6 +20,13 @@ const Projects = () => {
         </p>
         <h2 className="py-4">Which I made</h2>
         <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="Cyberfiction - Clone"
+            backgroundImg={cyberfiction}
+            projectUrl="/cyberfiction"
+            tech="HTML, CSS, JS, GSAP, Locomotive"
+            liveUrl={"https://cyberfiction-clone-project.vercel.app/"}
+          />
           <ProjectItem
             title="Apple Vision Pro - Clone"
             backgroundImg={visionPro}
