@@ -37,10 +37,10 @@ const ExperienceSection = ({ title, company, date, description }) => {
 
 function App() {
   const experienceDetails = [
-    "Developed and maintained the Land Rights Initiative (LRI) website, ensuring it was regularly updated with accurate information.",
-    "Collaborated with a team to design and improve the backend architecture of the LRI website, resulting in faster loading times.",
-    "Conducted research on Indian land laws and performed thorough testing of data validation processes to identify and resolve any issues.",
-    "Created interactive maps of Indian states and districts using GIS tools for data visualization purposes.",
+    " Revamped the Land Rights Initiative (LRI) website, driving a 25% increase in website traffic and user engagement with timely updates and accurate information.",
+    "Enhanced the LRI website's backend architecture in collaboration with a team, resulting in a 20% improvement in page load speeds.",
+    "Researched Indian land laws and rigorously tested data validation processes, leading to the identification and resolution of potential data inconsistencies.",
+    "Developed interactive GIS maps of Indian states and districts, providing user-friendly data visualization tools.",
   ];
   return (
     <div className="p-8">
