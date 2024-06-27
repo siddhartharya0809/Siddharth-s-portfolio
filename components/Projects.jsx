@@ -20,7 +20,7 @@ const Projects = () => {
         <h2 className="py-4">Which I made</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Apple Vision Pro - Clone"
+            title="Vision Pro - Clone"
             backgroundImg={visionPro}
             projectUrl="/visionPro"
             tech="HTML, CSS, JS, GSAP"
