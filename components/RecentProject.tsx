@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
@@ -17,6 +18,9 @@ const RecentProjects = () => {
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
+            // Bug found: the card was not redirecting to the link instead taking me to the same page on top
+            // Solution: added onclick event with window.location.href which will redirect to the link
+            // but the issue of scrolling to top is still there, so need to fix that
             onClick={(event) => {
               event.preventDefault();
               window.location.href = item.link;
