@@ -2,6 +2,7 @@ import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProject from "@/components/RecentProject";
 import { FloatingNav } from "@/components/ui/FloatinNavbar";
+import Client from "@/components/Client";
 import { FaHome } from "react-icons/fa";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProject />
+        <Client />
       </div>
     </main>
   );
