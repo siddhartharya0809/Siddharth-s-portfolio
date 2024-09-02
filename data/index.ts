@@ -124,33 +124,21 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Siddharth Arya demonstrated strong technical skills during his internship at CPR, particularly in data validation and GIS-based mapping. He contributed valuable insights to our interactive data visualization interface, showing a keen eye for UI/UX improvements. His dedication to delivering quality work remotely was impressive.",
+    name: "Kaustab D. Biswas",
+    title: "Visiting Fellow. Centre for Policy Research",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Siddharth Arya is an exceptional frontend developer with a solid grasp of full-stack technologies, particularly in the MERN stack. Working with him on projects, I've seen firsthand his ability to deliver clean, efficient code under tight deadlines. His dedication and problem-solving skills make him a valuable asset to any team.",
+    name: "Arsh Kaushik",
+    title: "ex Zomato, ex Scaler, Current Precisely",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I had the pleasure of collaborating with Siddharth Arya on several projects, where his expertise in frontend development and the MERN stack really shined. He consistently brought innovative solutions to the table and was instrumental in ensuring our projects were successful. Siddharth is a reliable and talented developer who is always ready to tackle new challenges.",
+    name: "Deep Sresthi",
+    title: "ex Nokia, current EagleView ",
   },
 ];
 
