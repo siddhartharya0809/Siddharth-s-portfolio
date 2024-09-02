@@ -1,23 +1,5 @@
 {
   "compilerOptions": {
-<<<<<<< HEAD
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": false,
-    "noEmit": true,
-    "incremental": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-=======
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -30,32 +12,15 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
->>>>>>> portfolio-redesign
     "plugins": [
       {
         "name": "next"
       }
     ],
-<<<<<<< HEAD
-    "strictNullChecks": true,
-    "target": "es5",
-    "forceConsistentCasingInFileNames": true
-  },
-  "include": [
-    "next-env.d.ts",
-    ".next/types/**/*.ts",
-    "**/*.ts",
-    "**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
-=======
     "paths": {
       "@/*": ["./*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
->>>>>>> portfolio-redesign
 }
