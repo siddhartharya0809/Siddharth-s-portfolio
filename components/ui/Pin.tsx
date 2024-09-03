@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import dynamic from "next/dynamic";
-import { cn } from "@/utils/cn";
+import { cn } from "@/lib/util";
 import Link from "next/link";
 
 // Dynamically import motion.div with SSR disabled
