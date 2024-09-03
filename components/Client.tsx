@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 import { companies, testimonials } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfinteMovingCard";
